@@ -66,6 +66,7 @@ Invoke-PS2EXE .\ransomeware.ps1 .\UniKeyNT.exe -iconFile .\UniKey.ico
 ```
 
 ### Step 2: Modify Application Information
+Download Resource Hacker from https://www.angusj.com/resourcehacker/
 Use Resource Hacker to update the executable's metadata:
 
 #### Version Information
