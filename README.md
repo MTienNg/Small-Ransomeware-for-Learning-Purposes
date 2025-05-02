@@ -14,9 +14,12 @@
 ## 🌟 Overview
 This project demonstrates the implementation of a basic ransomware using PowerShell. It includes various security features and anti-analysis techniques commonly found in real-world ransomware. The project is designed to help security researchers and developers understand ransomware behavior and develop better defense mechanisms.
 
+> **Note**: This ransomware only encrypts files in its current directory and subdirectories. It does not affect the entire system.
+
 ## ✨ Features
 
 ### 1. 🔐 Core Features
+- **Localized Encryption**: Encrypts files only in the current directory and its subdirectories
 - **Advanced Encryption**: Implements AES-256 encryption for file security
 - **Automated Process**: Self-contained execution with minimal user interaction
 - **Notification System**: Creates detailed README.txt with encryption status
@@ -41,6 +44,7 @@ This project demonstrates the implementation of a basic ransomware using PowerSh
 - **Algorithm**: AES-256 (CBC mode)
 - **Key Generation**: Cryptographically secure random number generation
 - **File Handling**: Stream-based encryption for large files
+- **Scope**: Local directory and subdirectories only
 
 ### Anti-Analysis Techniques
 - Environment detection
@@ -141,6 +145,7 @@ FILETYPE 0x1
 - Always test in a controlled environment
 - Implement proper security measures when handling sensitive data
 - Follow ethical guidelines and local laws
+- **Note**: The ransomware only affects files in its current directory and subdirectories
 
 ---
 
