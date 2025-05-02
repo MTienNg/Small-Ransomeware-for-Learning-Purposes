@@ -1,7 +1,7 @@
 # Small Ransomware
 ## Building a Small Ransomware for Learning Purposes
 
-> **Disclaimer**: This project is created for educational purposes only. The author does not condone or support the use of ransomware for malicious purposes. This code is provided to help understand how ransomware works and how to protect against it.
+> **Disclaimer**: This project is created for educational purposes only. The author does not condone or support the use of ransomware for malicious purposes. The code is provided to help understand how ransomware works.
 
 ## Table of Contents
 - [Overview](#overview)
