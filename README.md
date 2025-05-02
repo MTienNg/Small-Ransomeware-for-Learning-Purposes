@@ -1,9 +1,9 @@
-# Small Ransomware
-## Building a Small Ransomware for Learning Purposes
+# 🚀 Small Ransomware
+## 🔒 Building a Small Ransomware for Learning Purposes
 
-> **Disclaimer**: This project is created for educational purposes only. The author does not condone or support the use of ransomware for malicious purposes. The code is provided to help understand how ransomware works.
+> ⚠️ **Disclaimer**: This project is created for educational purposes only. The author does not condone or support the use of ransomware for malicious purposes. This code is provided to help understand how ransomware works and how to protect against it.
 
-## Table of Contents
+## 📑 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Technical Details](#technical-details)
@@ -11,36 +11,36 @@
 - [Configuration](#configuration)
 - [Security Considerations](#security-considerations)
 
-## Overview
+## 🌟 Overview
 This project demonstrates the implementation of a basic ransomware using PowerShell. It includes various security features and anti-analysis techniques commonly found in real-world ransomware. The project is designed to help security researchers and developers understand ransomware behavior and develop better defense mechanisms.
 
-## Features
+## ✨ Features
 
-### 1. Core Features
+### 1. 🔐 Core Features
 - **Advanced Encryption**: Implements AES-256 encryption for file security
 - **Automated Process**: Self-contained execution with minimal user interaction
 - **Notification System**: Creates detailed README.txt with encryption status
 - **Cleanup Mechanism**: Automatic removal of source files post-execution
 
-### 2. Security Features
+### 2. 🛡️ Security Features
 - **Anti-Analysis**: Multiple techniques to detect and evade analysis environments
 - **Anti-Debugging**: Comprehensive protection against debugging attempts
 - **String Protection**: Encrypted strings to prevent static analysis
 - **Code Obfuscation**: Advanced obfuscation techniques to hinder reverse engineering
 - **Self-Protection**: Automatic cleanup to prevent forensic analysis
 
-### 3. Additional Capabilities
+### 3. 🔧 Additional Capabilities
 - **Data Collection**: Automated collection of browser credentials
 - **Data Exfiltration**: Secure upload of collected data
 - **Resource Management**: Efficient handling of temporary files
 - **Process Control**: Sophisticated execution flow management
 
-## Technical Details
+## 🔬 Technical Details
 
 ### Encryption Implementation
-- Algorithm: AES-256 (CBC mode)
-- Key Generation: Cryptographically secure random number generation
-- File Handling: Stream-based encryption for large files
+- **Algorithm**: AES-256 (CBC mode)
+- **Key Generation**: Cryptographically secure random number generation
+- **File Handling**: Stream-based encryption for large files
 
 ### Anti-Analysis Techniques
 - Environment detection
@@ -48,7 +48,7 @@ This project demonstrates the implementation of a basic ransomware using PowerSh
 - Timing checks
 - Memory analysis prevention
 
-## Installation Guide
+## 📥 Installation Guide
 
 ### Prerequisites
 - Windows 10 or later
@@ -129,17 +129,23 @@ FILETYPE 0x1
 3. Execute protection process
 4. Locate protected file in Confused directory
 
-## Configuration
+## ⚙️ Configuration
 
 ### Required Settings
 - **GoFile Token**: Set `$kz9qW3n` to your GoFile account token
 - **Storage Folder**: Set `$r7mP8vT` to your target GoFile folder ID
 
-## Security Considerations
+## 🔒 Security Considerations
 - This project is for educational purposes only
 - Do not use this code for malicious purposes
 - Always test in a controlled environment
 - Implement proper security measures when handling sensitive data
 - Follow ethical guidelines and local laws
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for educational purposes</sub>
+</div>
 
 	
